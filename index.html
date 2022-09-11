@@ -6,10 +6,19 @@
     </head>
     <body>
         <input type="text" id="input-el" placeholder="quick notes">
-        <button id="input-btn">SAVE INPUT</button>
-        <button id="tab-btn">SAVE TAB</button>
-        <button id="del-btn">DELETE ALL</button>
-        <ul id="ul-el"></ul>
+        <div class="btns">
+            <button id="input-btn">SAVE INPUT</button>
+            <button id="tab-btn">SAVE URL</button>
+            <button id="del-btn">DELETE ALL</button>
+        </div>
+        <div class="myNotes">
+            <h4>My Notes</h4>
+            <ul id="ul-el"></ul>
+        </div>
+        <div class="myLinks">
+            <h4>My URLs</h4>
+            <ul id="ul-el2"></ul>
+        </div>
         <script src="./index.js"></script>
     </body>
 </html>
